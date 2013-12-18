@@ -24,7 +24,7 @@ time, mark, audio, video {
 /* HEADER */
 .header {
     width: 100%;
-    background-color: #FFCC99;
+    background-color: blue;
     height: 60px;
 }
 
