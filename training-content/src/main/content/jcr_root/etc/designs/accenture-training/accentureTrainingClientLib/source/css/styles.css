@@ -24,11 +24,15 @@ time, mark, audio, video {
 /* HEADER */
 .header {
     width: 100%;
-    background-color: blue;
+    background-color: #fff;
     height:100px;
 }
 
 	.header .logo{
+		float:left;
+		margin-top: 35px;
+	}
+	.header nav{
 		float:left;
 	}
 	.header ul{
@@ -39,7 +43,7 @@ time, mark, audio, video {
 	
 		.header ul li{
 			display:inline-block;
-			border-right:1px solid #fff;
+			border-right:1px solid #585858;
 			width:100px;
 			text-align: center;
 			height:35px;
@@ -47,15 +51,14 @@ time, mark, audio, video {
 		}
 		
 			.header ul li a{
-				color:#fff;
+				color:#585858;
 				text-decoration: none;
 				
 			}
 
 .content {
     width: 100%;
-    background-color: red;
-    height: 100px;    
+    background-color: red; 
 }
 
 footer {
