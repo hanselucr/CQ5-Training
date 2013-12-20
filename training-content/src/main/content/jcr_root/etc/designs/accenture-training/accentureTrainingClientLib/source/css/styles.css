@@ -27,9 +27,14 @@ time, mark, audio, video {
     background-color: blue;
     height:100px;
 }
+
+	.header .logo{
+		float:left;
+	}
 	.header ul{
 		margin:40px 0 0 15px;
 		position:absolute;
+
 	}
 	
 		.header ul li{
